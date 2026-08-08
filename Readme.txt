@@ -7,28 +7,6 @@ A Java concurrency project implementing a lightweight, ROS-inspired **microservi
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Core Components](#core-components)
-  - [Future\<T\>](#futuret)
-  - [MessageBus](#messagebus)
-  - [MicroService](#microservice)
-- [Perception & Mapping Pipeline](#perception--mapping-pipeline)
-  - [Sensors](#sensors)
-  - [Message Flow](#message-flow)
-  - [MicroServices](#microservices)
-- [Data Model](#data-model)
-- [Input / Output Format](#input--output-format)
-- [Error Handling & Termination](#error-handling--termination)
-- [Project Structure](#project-structure)
-- [Building & Running](#building--running)
-- [Testing](#testing)
-- [Design Notes](#design-notes)
-
----
-
 ## Overview
 
 Modern robot vacuums combine multiple sensors — camera, LiDAR, GPS, IMU — to map their environment and navigate safely. Managing these sensors concurrently, and fusing their data into a coherent world model, is the core challenge this project solves.
