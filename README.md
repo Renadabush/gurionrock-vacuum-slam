@@ -257,4 +257,3 @@ mvn test
 
 ---
 
-*SPL 225 — Assignment 2, Ben-Gurion University. Teaching Assistants: Lotem Sakira, Ahmed Massalha.*
